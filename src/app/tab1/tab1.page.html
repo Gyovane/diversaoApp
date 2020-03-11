@@ -1,17 +1,51 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <h1>Batman: O Cavaleiro das Trevas</h1>
+        <h2>16 de Julho de 2008</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/sCF3RtQFhA7qMizMgOlcaPc5vC9.jpg"/>
+        <p>Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey…</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <ion-col size="6">
+        <h1>O Peixe Grande e Begônia</h1>
+        <h2>08 de Julho de 2016</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/5XoJpNKo3N7M7wV76q8t3bXhskn.jpg"/>
+        <p>Uma garota de um reino mágico se transforma em um golfinho para explorar o mundo humano, onde conhece um jovem e embarca numa perigosa missão.</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>     
+
+    </ion-row>
+ 
+    <ion-row>
+      <ion-col size="6">
+        <h1>Invocação do Mal</h1>
+        <h2>20 de Março de 2013</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/x4OydN9XST5huCPzijNwxiUL50x.jpg"/>
+        <p>Harrisville, Rhode Island, Estados Unidos, 1968. Os investigadores paranormais Ed e Lorraine Warren trabalham para ajudar uma família aterrorizada por uma presen…</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>
+
+      <ion-col size="6">
+        <h1>Pokémon: Mewtwo Contra-Ataca</h1>
+        <h2>12 de Julho de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/54TouWa5dWkxPtuzoqVEbgUWBVT.jpg"/>
+        <p>Depois de aceitar o convite de um misterioso treinador, Ash, Misty e Brock conhecem Mewtwo, um Pokémon criado artificialmente e que está louco por uma batalha.</p>
+        <ion-button expand="block" fill="outline">Mais Informações</ion-button>
+      </ion-col>     
+
+    </ion-row>
+
+  </ion-grid>
 </ion-content>
